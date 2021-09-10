@@ -6,6 +6,7 @@ import HooksCakeContainer from './components/HooksCakeContainer';
 import IceCreamContainer from './components/IceCreamContainer';
 import BiscuitContainer from './components/BiscuitContainer';
 import HooksBiscuitContainer from './components/HooksBiscuitContainer';
+import ImprovedCakeContainer from './components/ImprovedCakeContainer';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <IceCreamContainer />
         <BiscuitContainer />
         <HooksBiscuitContainer />
+        <ImprovedCakeContainer />
       </div>
     </Provider>
   );
